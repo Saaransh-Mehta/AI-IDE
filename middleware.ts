@@ -34,9 +34,9 @@ export default auth((req)=>{
         return null
     }
 
-    if(!isLoggedIn && !isPublic){
-        return Response.redirect(new URL("/auth/signin",nextUrl))
-    }
+    // if(!isLoggedIn && !isPublic){
+    //     return Response.redirect(new URL("/auth/sign-in",nextUrl))
+    // }
 return null
 })
 
